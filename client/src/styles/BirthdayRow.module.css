@@ -1,0 +1,49 @@
+@import "Variables.css";
+
+.birthday_row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 10px;
+  border-bottom: 1px solid var(--foreground-color);
+  width: max(50%, 800px * 0.8);
+  margin-left: auto;
+  margin-right: auto;
+  font-size: large;
+}
+
+@media (max-width: 800px) {
+    .birthday_row {
+        width: 80%;
+        font-size: medium;
+    }
+}
+
+.birthday_row p, .button_container, .input_container {
+  width: 30%;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  font-size: inherit;
+}
+
+.date_input {
+    width: 40%;
+    text-align: center;
+    font-size: inherit;
+}
+
+.button {
+    font-family: inherit;
+    font-size: inherit;
+    border: none;
+    cursor: pointer;
+}
+
+.button:hover {
+  color: var(--foreground-color);
+}
+
+.button:active {
+  color: var(--foreground-color);
+}

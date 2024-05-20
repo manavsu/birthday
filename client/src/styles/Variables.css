@@ -1,0 +1,17 @@
+:root {
+    --font-size: large;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background-color: #2e2e2e;
+        --foreground-color: #ffffff;
+    }
+}
+  
+@media (prefers-color-scheme: light) {
+    :root {
+        --background-color: #ffffff;
+        --foreground-color: #2e2e2e;
+    }
+}

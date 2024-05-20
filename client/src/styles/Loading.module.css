@@ -1,0 +1,20 @@
+@import 'Variables.css';
+
+.background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.img {
+    height: 100vh;
+    width: auto;
+}
+  
+@media (prefers-color-scheme: light) {
+    .img {
+        filter: invert(100);
+    }
+}
